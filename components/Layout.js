@@ -10,6 +10,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
+        <title>{siteTitle} - Build powerful apps with code.</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="Code Nuggets" content="Build powerful apps with code." />
         <meta

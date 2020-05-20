@@ -23,6 +23,10 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>
           Code Nuggets - Build powerful apps with code.
         </h2>
+        <p>
+          👋 Welcome to Code Nuggets! You just embarked for a long coding
+          journey full of great and incredible content. Let's do this 🚀
+        </p>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>

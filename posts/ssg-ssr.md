@@ -3,7 +3,7 @@ title: "Learn React"
 date: "2020-05-19"
 ---
 
-👋 Welcome to **Code Nuggets** with React & Next JS! You just embarked for a long coding journey full of great and incredible content. Let's rock and roll 🚀
+👋 🚀
 
 ## What is React?
 
