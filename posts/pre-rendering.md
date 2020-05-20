@@ -5,7 +5,7 @@ date: "2020-05-20"
 
 # The environment
 
-We will choose and use the most powerful and modern tools to create our site. We will use **Next JS** as a starter template for our website, Then, we’ll work with **FlexBox**, **CSS Grid**, the most flexible way to implement your layout. We’ll learn to create fully customizable React components for buttons, the header, footer, navigation bar and more...
+We will choose and use the most powerful and modern tools to create our site. We will use **Next JS** as a starter template for our website, Then, we’ll work with **Variables**, **Events**, **Conditionals**, **.map** **Etc.** the most flexible way to implement your layout. We’ll learn to create fully customizable React components for buttons, the header, footer, navigation bar and more...
 
 ## What is Next Js?
 
