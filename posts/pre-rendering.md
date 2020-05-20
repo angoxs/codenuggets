@@ -107,7 +107,7 @@ Explorer > Open Folder
 ![Image of Yaktocat](https://cl.ly/38418ac45c48/download/vscode.png)
 
 ```
-Documents > Nextjs-blo > Open
+Documents > Nextjs-bloga > Open
 ```
 
 ![Image of Yaktocat](https://cl.ly/268b49986aee/download/folder.png)
