@@ -101,7 +101,7 @@ One you have downloaded VScode, we will open it and open source code of our site
 In explorer click Open Folder
 
 ```
-Explore > Open Folder
+Explorer > Open Folder
 ```
 
 ![Image of Yaktocat](https://cl.ly/38418ac45c48/download/vscode.png)
@@ -112,7 +112,7 @@ Documents > Nextjs-blo > Open
 
 ![Image of Yaktocat](https://cl.ly/268b49986aee/download/folder.png)
 
-Ooen Folder
+Open Folder
 
 ![Image of Yaktocat](https://cl.ly/f290e2d477cc/download/Screen_Shot_2020-05-19_at_6.25.40_PM.png)
 
