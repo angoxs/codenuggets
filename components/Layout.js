@@ -17,7 +17,7 @@ export default function Layout({ children, home }) {
           property="og:image"
           content={`https://cl.ly/5f610f7cd882/download/Screen%252520Shot%2525202020-05-20%252520at%25252010.37.11%252520AM.png/${encodeURI(
             siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          )}.png?theme=light&md=0&fontSize=75px&images=https://cl.ly/5f610f7cd882/download/Screen%252520Shot%2525202020-05-20%252520at%25252010.37.11%252520AM.png`}
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
