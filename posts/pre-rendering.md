@@ -1,11 +1,17 @@
 ---
-title: "Two Forms of Pre-rendering"
+title: "Setting up the environment"
 date: "2020-05-19"
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+# The environment
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
+We will choose and use the most powerful and modern tools to create our site. We will use **Next JS** as a starter template for our website, Then, we’ll work with **FlexBox**, **CSS Grid**, the most flexible way to implement your layout. We’ll learn to create fully customizable React components for buttons, the header, footer, navigation bar and more...
+
+## What is Next Js?
+
+- Next Js is a **JavaScript** framework created by **Vercel**. It lets you build server-side rendering and static web applications using React. It's a great tool to build your next website. It has many great features and advantages, which can make Nextjs your first option for building your next web application.
 - **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+## Why Next JS?
+
+Next JS allows to create **production grade** React applications that scale. The world's leading companies use Next.js by Vercel to build static and dynamic websites and web applications.
