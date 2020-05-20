@@ -1,6 +1,6 @@
 ---
 title: "Setting up the environment"
-date: "2020-05-19"
+date: "2020-05-20"
 ---
 
 # The environment
