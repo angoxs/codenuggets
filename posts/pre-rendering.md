@@ -1,5 +1,5 @@
 ---
-title: "Setting up the environment"
+title: "⚙️ Setting up the environment"
 date: "2020-05-20"
 ---
 
@@ -125,3 +125,7 @@ Hooray! 🎉
 If you did everything the proper way by now you should have your studio code setup next to your Nextjs app
 
 Next step we'll be editing our code and learning what it all means!
+
+## Follow me on twitter to stay informed!
+
+[Twitter](https://twitter.com/angelVZUR)
