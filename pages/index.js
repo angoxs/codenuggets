@@ -23,7 +23,7 @@ class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      color: green,
+      color: white,
     };
     this.changeColor = this.changeColor.bind(this);
   }
