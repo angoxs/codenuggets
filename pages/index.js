@@ -65,7 +65,7 @@ class Home extends React.Component {
             </ul>
           </section>
           <button onClick={this.changeColor}>
-            {changeColor ? "Testing" : "Great!"}
+            {this.state.color === white ? "Testing" : "Great!"}
           </button>
         </Layout>
       </div>
