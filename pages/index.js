@@ -29,7 +29,7 @@ class Home extends React.Component {
   }
 
   changeColor() {
-    const newColor = this.state.color == green ? white : green;
+    const newColor = this.state.color == white ? green : white;
     this.setState({ color: newColor });
   }
 
