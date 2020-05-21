@@ -16,7 +16,7 @@ export async function getStaticProps() {
   };
 }
 
-const green = "#39D1B4";
+const purple = "#CECDFB";
 const white = "#FFFFFF";
 
 class Home extends React.Component {
@@ -29,7 +29,7 @@ class Home extends React.Component {
   }
 
   changeColor() {
-    const newColor = this.state.color == white ? green : white;
+    const newColor = this.state.color == white ? purple : white;
     this.setState({ color: newColor });
   }
 
