@@ -32,7 +32,8 @@ Take a look at the following code:
 
 ```
 <h1 className="title">
-     Learn <a href="https://nextjs.org">Next.js!</a>
+     Learn
+     <a href="https://nextjs.org">Next.js!</a>
 </h1>
 ```
 
