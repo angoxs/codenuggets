@@ -127,7 +127,7 @@ const myTeam = {
 JSX elements can have attributes, just like HTML elements can. A JSX attribute is written using HTML-like syntax: a name, followed by an equals sign, followed by a value. The value should be wrapped in quotes, like this:
 
 ```
-<a href="https://nextjs.org">React</a>
+href="https://nextjs.org"
 ```
 
 In the example above you will see a `<a>` element that contains an attribute of href. A single JSX element can have many attributes just like in HTML.
