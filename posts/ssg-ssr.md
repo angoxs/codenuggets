@@ -1,5 +1,5 @@
 ---
-title: "💟 Learn React"
+title: "💟 React"
 date: "2020-05-19"
 ---
 

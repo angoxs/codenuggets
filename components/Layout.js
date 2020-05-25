@@ -22,10 +22,12 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+
       <header className={styles.header}>
         {home ? (
           <>
             <img
+              id="img"
               src="/images/profile.jpg"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}

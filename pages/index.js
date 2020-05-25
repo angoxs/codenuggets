@@ -4,7 +4,6 @@ import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/Date";
-import Test from "../components/Test";
 import React from "react";
 
 export async function getStaticProps() {
@@ -16,27 +15,55 @@ export async function getStaticProps() {
   };
 }
 
-const purple = "#CECDFB";
-const white = "#FFFFFF";
-
 class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      color: white,
+      color: [255, 255, 255],
     };
-    this.changeColor = this.changeColor.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  changeColor() {
-    const newColor = this.state.color == white ? purple : white;
-    this.setState({ color: newColor });
+  componentDidMount() {
+    this.applyColor();
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    this.applyColor();
+  }
+
+  handleClick() {
+    this.setState({
+      color: this.chooseColor(),
+    });
+  }
+
+  formatColor(ary) {
+    return "rgb(" + ary.join(", ") + ")";
+  }
+
+  isLight() {
+    const rgb = this.state.color;
+    return rgb.reduce((a, b) => a + b) < 127 * 3;
+  }
+
+  applyColor() {
+    const color = this.formatColor(this.state.color);
+    document.body.style.background = color;
+  }
+
+  chooseColor() {
+    const random = [];
+    for (let i = 0; i < 3; i++) {
+      random.push(Math.floor(Math.random() * 256));
+    }
+    return random;
   }
 
   render() {
     const { allPostsData } = this.props;
     return (
-      <div style={{ background: this.state.color }}>
+      <div>
         <Layout home>
           <Head>…</Head>
           <section className={utilStyles.headingMd}>…</section>
@@ -64,9 +91,6 @@ class Home extends React.Component {
               ))}
             </ul>
           </section>
-          <button onClick={this.changeColor}>
-            {this.state.color === white ? "Testing" : "Great!"}
-          </button>
         </Layout>
       </div>
     );

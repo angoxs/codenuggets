@@ -15,12 +15,14 @@
   height: 6rem;
 }
 
+#img {
+  background-size: cover;
+  background-position: center;
+}
+
 .headerHomeImage {
   width: 8rem;
   height: 8rem;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .backToHome {
