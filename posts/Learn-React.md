@@ -32,12 +32,8 @@ Take a look at the following code:
 
 ```
 <h1 className="title">
-Learn
+Learn<a>Next.js!</a>
 </h1>
-```
-
-```
- <a href="https://nextjs.org">Next.js!</a>
 ```
 
 This code you see right here is like a dragon being born. You might be asking yourself is it JavaScript? HTML? Or something else?
