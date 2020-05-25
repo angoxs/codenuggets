@@ -109,7 +109,7 @@ Here's an example of **JSX** element!
 Here's an example of a **JSX** element being saved in a variable
 
 ```
-const navBar = <h1>Learn Nextjs!</h1>
+const navBar = <h1> Nextjs!</h1>
 ```
 
 Here’s an example of several JSX elements being store in a object
@@ -118,7 +118,7 @@ Here’s an example of several JSX elements being store in a object
 const myTeam = {
   center: <h1>Angel Vazquez</h1>
   powerForward: <h1>Elements</h1>
-  smallForward: <h1>Learn Nextjs</h1>
+  smallForward: <h1>Nextjs</h1>
 }
 ```
 
@@ -138,7 +138,7 @@ You can nest JSX elements inside of other JSX elements, just like in HTML. Here�
 
 ```
 <h1 className="title">
-          Learn <a>React</a>
+     Learn <a>React</a>
 </h1>
 ```
 
