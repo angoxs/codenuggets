@@ -69,7 +69,6 @@ class Home extends React.Component {
           <section
             className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}
           >
-            <a href="/Login">Login</a>
             <h2 className={utilStyles.headingLg}>
               Code Nuggets - Build powerful apps with code.
             </h2>
