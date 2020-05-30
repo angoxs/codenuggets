@@ -196,13 +196,11 @@ With this we will be able to use **flexbox**
 
 we will add
 
-```
-
+```css
 flex-direction: row;
 flew-wrap: wrap;
 justify-content: center;
 align-items: center;
-
 ```
 
 Very good! Now our element should right in the center of our page.
