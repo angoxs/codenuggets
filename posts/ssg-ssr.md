@@ -273,12 +273,10 @@ Next let's continue with styling our text.
 
 To make our text prettier let's add a font to our body.
 
-```
 body {
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-```
 
 Alright. next our form-title
 
