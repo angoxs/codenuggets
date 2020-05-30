@@ -74,7 +74,11 @@ class Home extends React.Component {
             </h2>
             <p>
               👋 Welcome to Code Nuggets! You just embarked for a long coding
-              journey full of great and incredible content. Let's do this 🚀
+              journey full of great and incredible content.
+            </p>
+            <p>
+              I believe by doing small tasks the right way will take you a long
+              way! So let's do this 🚀
             </p>
             <ul className={utilStyles.list}>
               {allPostsData.map(({ id, date, title }) => (
